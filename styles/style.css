@@ -1,0 +1,200 @@
+@font-face {
+    font-family: smilecity;
+    src: url("../fonts/Smile\ City.otf");
+}
+
+
+body {
+    background-color: rgb(94, 92, 92);
+}
+
+#titre{
+    color: rgb(185, 45, 69);
+    text-align: center;
+    font-family: "smilecity";
+}
+
+.contenantChoix {
+    display:flex;
+    justify-content: center;
+    border: none;
+}
+
+.Casimir {
+    background-color: rgb(185, 45, 69);
+    width: 350px;
+    height: 250px;
+    border: 3px solid white;
+    display: block;
+    /* display: inline-flex;  */
+    align-items: center;
+    justify-content: center;
+    margin-right: 15%;
+
+}
+/* au final le display ne ma pas servis */
+
+
+.Brisk {
+    background-color: rgb(185, 45, 69);
+    width: 350px;
+    height: 250px;
+    border: 3px solid white;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    /* margin: 25%; */
+
+
+}
+
+
+.départ {
+    height: 200px;
+    width: 300px;
+    /* background-color: white; */
+    align-items: center;
+    display:block;
+    /* position: absolute; */
+    
+}
+
+
+#pause {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+ .choix {
+    display:flex;
+    justify-content: center;
+    border: none;
+}
+.livre {
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin-right: 15%;
+}
+/* j'ai mis la photo avec le lien */
+.table {
+      height: 200px;
+    width: 300px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin-right: 15%;
+}
+
+.nourriture {
+      height: 200px;
+    width: 300px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+}
+
+.choix1 {
+    margin-top: 10%;
+    justify-content: center;
+   margin-left: 15%;
+   position: absolute;
+   color: rgb(185, 45, 69);
+}
+
+.choix2 {
+    height: 100px;
+    width: 150px;
+    /* justify-content: center; */
+   margin-left: 45%;
+   position: absolute;
+   margin-top: 10%;
+   color: rgb(185, 45, 69);
+}
+
+.choix3 {
+    margin-top: 7%;
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75%;
+    display: inline-flex;
+    color: rgb(185, 45, 69);
+    position: absolute;
+}
+/* J'ai utilisé les choix pour toujours bien placer mes liens à la même place */
+
+
+
+.raccompagner {
+   height: 300px;
+   width: 450px;
+   align-items: center;
+   display: block;
+   /* justify-content: center; */
+   margin-left: 75%;
+   color: rgb(185, 45, 69);
+}
+
+.maison {
+     height: 300px;
+   width: 450px;
+   align-items: center;
+   display: block;
+   margin-left: -30%;
+}
+/* pour que la maison soit bien dans le deccord j'ai dû faire un autre class */
+
+.resto {
+    height: 75%;
+    width: auto;
+    align-items: center;
+    display: block;
+    margin-left: 10%; 
+    position: absolute;
+    color: rgb(185, 45, 69);
+    
+}
+
+.choixC {
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    display: inline;
+    margin-left: 35%;
+}
+
+.choixB {
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    display: inline;
+    margin-left: 20%;
+}
+
+#retournez {
+   text-align: center;
+    color: aquamarine;
+    display: block;
+
+}
+#retournez:hover {
+    background-color: white;
+    color: rgb(185, 45, 69);
+}
+/* j'ai eu quelques difficultés à le centrer correctement */
+
+.photo {
+ display: block;
+    width: 35%;
+    height: auto;
+    margin: 2% auto;   
+
+}
